@@ -83,7 +83,6 @@
     max-width: 100%;
   }
 }
-
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -171,6 +170,8 @@
   height: 400px;
   background-image: url("images/backgroundslogan.png");
   margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .textslogan h1,
@@ -195,6 +196,7 @@ p1 {
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
+  border: 1px solid white;
 }
 
 .nextbutton a:hover {
@@ -204,8 +206,8 @@ p1 {
 }
 
 .previous {
-  background-color: #f1f1f1;
-  color: black;
+  background-color: transparent;
+  color: white;
 }
 
 .next {
