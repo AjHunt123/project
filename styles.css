@@ -25,7 +25,6 @@
 .navbar a {
   color: white;
   text-decoration: none;
-  padding: 20px 10px;
 }
 
 .primary-icon {
@@ -44,7 +43,7 @@
   margin-bottom: 7px;
 }
 
-@media all and (max-width: 1150px) {
+@media all and (max-width: 1200px) {
   .navbar {
     flex-direction: column;
     position: relative;
@@ -58,8 +57,11 @@
     position: absolute;
     right: 60px;
     top: 15px;
+    padding: 15px;
   }
-
+  .primary-icon {
+    padding: 20px;
+  }
   .nav-list {
     list-style-type: none;
     width: 100%;
@@ -75,6 +77,10 @@
 
   .active {
     display: block;
+  }
+
+  .bgslogan {
+    max-width: 100%;
   }
 }
 
@@ -119,12 +125,13 @@
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #f83659;
+  background-color: transparent;
   border-radius: 20px;
   text-decoration: underline;
 }
 
 .dropdown-content {
+  padding: 10px;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -144,10 +151,74 @@
 }
 
 .dropdown-content a:hover {
-  background-color: salmon;
+  background-color: darkseagreen;
   border-radius: 10px;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.page-slogan {
+  background-color: #28303b;
+  height: 150px;
+  padding: 50px;
+  display: flex;
+  align-items: start;
+}
+.bgslogan {
+  width: 1080px;
+  height: 400px;
+  background-image: url("images/backgroundslogan.png");
+  margin: auto;
+}
+
+.textslogan h1,
+p1 {
+  color: white;
+  margin-left: 80px;
+  align-items: start;
+  display: flex;
+  overflow: visible;
+}
+
+.texth1 {
+  margin-top: 100px;
+  font-size: 25px;
+  padding-bottom: 40px;
+}
+.textp1 {
+  font-size: 16px;
+}
+
+.nextbutton a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.nextbutton a:hover {
+  background-color: #f83659;
+  opacity: 80%;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: rgb(13, 13, 131);
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+  border-style: hidden;
+}
+
+.nextbutton {
+  padding-left: 75px;
+  padding-top: 50px;
 }
