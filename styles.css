@@ -166,7 +166,7 @@
   align-items: start;
 }
 .bgslogan {
-  width: 1080px;
+  width: 1280px;
   height: 400px;
   background-image: url("images/backgroundslogan.png");
   margin: auto;
@@ -201,7 +201,7 @@ p1 {
 
 .nextbutton a:hover {
   background-color: #f83659;
-  opacity: 80%;
+  opacity: 70%;
   color: black;
 }
 
@@ -223,4 +223,283 @@ p1 {
 .nextbutton {
   padding-left: 75px;
   padding-top: 50px;
+}
+
+.whitebg {
+  background-color: white;
+  height: 200px;
+}
+
+.bgthird {
+  background-color: #0055b2;
+  margin-top: 100px;
+
+  display: flex;
+  overflow: hidden;
+}
+
+.titleevent {
+  color: white;
+  padding: 50px 80px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.rowone {
+  margin: 0 -5px;
+  margin-top: 30px;
+}
+
+.rowone h1,
+p,
+h3,
+p2,
+p3 {
+  color: black;
+}
+
+.rowone:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media all and (max-width: 1200px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .card {
+    max-width: 450px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: start;
+  background-color: #f1f1f1;
+  display: flex;
+  overflow: hidden;
+  margin-left: 250px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.container h1 {
+  font-size: 21px;
+}
+.container h1,
+p {
+  margin-bottom: 8px;
+}
+.container {
+  padding-left: 10px;
+}
+.container p2 {
+  font-size: 16px;
+  margin-left: 2px;
+  opacity: 80%;
+}
+.ticon {
+  height: 15px;
+  width: 15px;
+  padding-left: 1px;
+  margin-top: 1px;
+}
+.bolded {
+  font-weight: bold;
+}
+
+.bgsearch {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.textsearch {
+  font-size: 21px;
+  padding-left: 80px;
+  padding-top: 80px;
+}
+.searchbar {
+  width: 900px;
+  margin-left: 200px;
+  margin-top: 50px;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+.searchbutton {
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.bgfifth {
+  background-color: rgb(238, 227, 227);
+  display: flex;
+}
+
+.textfifth {
+  font-size: 21px;
+  padding-left: 80px;
+  padding-top: 80px;
+  margin-right: 130px;
+}
+.viewhbutton {
+  margin-top: 80px;
+  margin-left: 1000px;
+  margin-bottom: 50px;
+  display: flex;
+}
+@media all and (max-width: 1200px) {
+  .viewhbutton {
+    margin-left: 400px;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.mbg {
+  background-color: rgb(238, 227, 227);
+  display: flex;
+}
+.mbgtwo {
+  background-color: rgb(238, 227, 227);
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.bgsixth {
+  background-color: white;
+  display: flex;
+}
+
+.textsixth {
+  font-size: 21px;
+  padding-left: 80px;
+  padding-top: 80px;
+  margin-right: 130px;
+}
+
+.sixbg {
+  background-color: white;
+  display: flex;
+}
+.sixbgtwo {
+  background-color: white;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.sixviewhbutton {
+  margin-top: 80px;
+  margin-left: 950px;
+  margin-bottom: 50px;
+  display: flex;
+}
+@media all and (max-width: 1200px) {
+  .sixviewhbutton {
+    margin-left: 400px;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.bgseven {
+  background-color: rgb(238, 227, 227);
+  display: flex;
+}
+
+.textseven {
+  font-size: 21px;
+  padding-left: 80px;
+  padding-top: 80px;
+  margin-right: 130px;
+}
+
+.sevenbg {
+  background-color: rgb(238, 227, 227);
+  display: flex;
+}
+.sevenbgtwo {
+  background-color: rgb(238, 227, 227);
+  display: flex;
+  padding-bottom: 50px;
+}
+.sviewhbutton {
+  margin-top: 80px;
+  margin-left: 900px;
+  margin-bottom: 50px;
+  display: flex;
+}
+@media all and (max-width: 1200px) {
+  .sviewhbutton {
+    margin-left: 400px;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.seightbg {
+  background-color: white;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.searcheightbar {
+  width: 850px;
+  margin-left: 200px;
+  margin-top: 80px;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+.searcheightbutton {
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.bgfooter {
+  background-color: #28303b;
+  display: flex;
+  padding: 100px 300px;
+}
+
+.textfoot {
+  color: white;
+  margin-right: 100px;
+}
+
+.primary-foot {
+  margin-bottom: 20px;
+}
+.container-links {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 200px;
+  display: inline;
+}
+.links {
+  color: white;
+}
+
+.linksfoot {
+  color: white;
+  gap: 20px;
+}
+
+.mediatext {
+  color: white;
+}
+
+.fticon {
+  padding: 15px 10px;
+  height: 25px;
+  width: 25px;
 }
