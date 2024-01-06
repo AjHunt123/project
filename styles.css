@@ -286,7 +286,7 @@ p3 {
   background-color: #f1f1f1;
   display: flex;
   overflow: hidden;
-  margin-left: 250px;
+  margin-left: 200px;
   width: 80%;
   border-radius: 10px;
 }
@@ -345,6 +345,7 @@ p {
 .bgfifth {
   background-color: rgb(238, 227, 227);
   display: flex;
+  justify-content: space-around;
 }
 
 .textfifth {
@@ -355,13 +356,12 @@ p {
 }
 .viewhbutton {
   margin-top: 80px;
-  margin-left: 1000px;
+
   margin-bottom: 50px;
   display: flex;
 }
 @media all and (max-width: 1200px) {
   .viewhbutton {
-    margin-left: 400px;
     display: block;
     margin-bottom: 20px;
   }
@@ -379,6 +379,7 @@ p {
 .bgsixth {
   background-color: white;
   display: flex;
+  justify-content: space-around;
 }
 
 .textsixth {
@@ -400,13 +401,11 @@ p {
 
 .sixviewhbutton {
   margin-top: 80px;
-  margin-left: 950px;
   margin-bottom: 50px;
   display: flex;
 }
 @media all and (max-width: 1200px) {
   .sixviewhbutton {
-    margin-left: 400px;
     display: block;
     margin-bottom: 20px;
   }
@@ -415,6 +414,7 @@ p {
 .bgseven {
   background-color: rgb(238, 227, 227);
   display: flex;
+  justify-content: space-around;
 }
 
 .textseven {
@@ -435,13 +435,11 @@ p {
 }
 .sviewhbutton {
   margin-top: 80px;
-  margin-left: 900px;
   margin-bottom: 50px;
   display: flex;
 }
 @media all and (max-width: 1200px) {
   .sviewhbutton {
-    margin-left: 400px;
     display: block;
     margin-bottom: 20px;
   }
@@ -471,9 +469,11 @@ p {
   padding: 100px 300px;
 }
 
+.container-icon {
+  margin-right: 200px;
+}
 .textfoot {
   color: white;
-  margin-right: 100px;
 }
 
 .primary-foot {
@@ -502,4 +502,10 @@ p {
   padding: 15px 10px;
   height: 25px;
   width: 25px;
+}
+@media all and (max-width: 1200px) {
+  .bgfooter {
+    display: block;
+    margin-bottom: 20px;
+  }
 }
